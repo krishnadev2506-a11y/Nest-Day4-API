@@ -1,0 +1,60 @@
+<app-carousel></app-carousel>
+
+<div class="container mt-5 pt-5">
+  <section class="py-5 text-center bg-light rounded shadow-sm">
+    <h1 class="display-6">Welcome to <strong>Nest</strong></h1>
+    <p class="lead">A curated store of beautiful, useful things. Fast shipping, thoughtful packaging.</p>
+    <p><a class="btn btn-primary btn-lg" routerLink="Store">Shop the Store</a></p>
+  </section>
+
+  <section class="mt-4">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Free Shipping</h5>
+            <p class="card-text">Enjoy complimentary shipping on orders over $50.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Sustainable Picks</h5>
+            <p class="card-text">We select items with eco-friendly materials and mindful design.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Secure Checkout</h5>
+            <p class="card-text">Safe and encrypted payment options you can trust.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-5">
+    <h3 class="mb-3">Featured Products</h3>
+    <app-card></app-card>
+  </section>
+
+
+  <section class="mt-5 mb-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h4>Stay Updated</h4>
+        <p>Sign up for product drops and special offers.</p>
+      </div>
+      <div class="col-md-6">
+        <form class="d-flex" (submit)="onSubscribe($event)">
+          <input class="form-control me-2" type="email" placeholder="Email address" required>
+          <button class="btn btn-outline-primary" type="submit">Subscribe</button>
+        </form>
+        <div *ngIf="subscribed" class="alert alert-success mt-3 mb-0">Thanks for subscribing — check your inbox!</div>
+      </div>
+    </div>
+  </section>
+</div>

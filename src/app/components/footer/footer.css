@@ -1,0 +1,8 @@
+/* Footer dark variant */
+.footer-dark{background-color:#000;color:#fff}
+.footer-dark a{color:#fff}
+.footer-dark .p-4{border-bottom:1px solid rgba(255,255,255,0.04)}
+.footer-dark h6, .footer-dark p{color:rgba(255,255,255,0.9)}
+.footer-dark .text-muted{color:rgba(255,255,255,0.6)}
+.footer-dark .text-reset{color:rgba(255,255,255,0.85)}
+.footer-dark .fab{opacity:0.9}

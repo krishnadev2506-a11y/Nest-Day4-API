@@ -1,0 +1,30 @@
+.container,
+.container * {
+  color: #ffffff;
+}
+
+.text-muted {
+  color: #d1d1d1 !important;
+}
+
+.text-primary {
+  color: #00e5ff !important;
+}
+
+.badge {
+  color: #ffffff;
+}
+
+.btn {
+  color: #ffffff;
+}
+
+.btn-outline-secondary {
+  border-color: #ffffff;
+}
+
+.container {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  padding: 30px;
+  border-radius: 12px;
+}

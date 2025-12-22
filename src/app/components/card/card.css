@@ -1,0 +1,7 @@
+.card{
+  margin-top: 1rem;
+  border-radius: 12px;
+}
+.card .card-img-top{border-top-left-radius:12px;border-top-right-radius:12px}
+.card .card-title{font-size:1rem}
+.card .card-text{font-size:0.9rem;color:#555}
